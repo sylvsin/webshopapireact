@@ -1,0 +1,32 @@
+.customer-wrapper {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  background-color: #2f313b;
+  color: white;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.name > select {
+  margin-left: 5px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.phone {
+  margin-right: 15px;
+}
+
+.phone > span {
+  margin-left: 2px;
+}
